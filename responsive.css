@@ -1,0 +1,107 @@
+
+/*================page1=============*/
+
+@media(max-width:600px){
+    header .headContant{
+        width: 300px;
+        left: 5%;
+    }
+    header .headContant h2{
+        font-size: 2em;
+    }
+}
+
+/*================page2=============*/
+
+@media(max-width:600px){
+    #page2{
+        padding: 3em;
+    }
+    #page2 h2{
+        font-size: 1.5em;
+        font-weight: 200;
+        margin-bottom: 20px;
+    }
+    #page2 h1{
+        font-size: 1.2rem;
+    }
+}
+
+/*================page4=============*/
+
+@media(max-width:600px){
+    #page4{
+        padding: 3em;
+    }
+    #page4 h2{
+        font-size: 1.5em;
+        font-weight: 200;
+        margin-bottom: 20px;
+    }
+    #page4 h1{
+        font-size: 1.2rem;
+    }
+}
+
+/*================page6=============*/
+
+@media(max-width:600px){
+    #page6{
+        padding: 3em;
+    }
+    #page6 h2{
+        font-size: 1.5em;
+        font-weight: 200;
+        margin-bottom: 20px;
+    }
+    #page6 h1{
+        font-size: 1.2rem;
+    }
+}
+
+/*================page7=============*/
+
+@media(max-width:600px){
+    #page7 canvas{
+        object-fit: cover;
+        object-position: center;
+    }
+}
+@media(max-width:600px){
+    #page9{
+        flex-direction: column;
+      }
+      #page9 .left9{
+        top: 0;
+        width: 100%;
+        height: 40%;
+      }
+      #page9 .right9{
+        bottom: 0;
+        width: 100%;
+        height: 60%;
+      }
+}
+
+@media(max-width:600px){
+    #page10{
+        height: max-content;
+        flex-direction: column;
+      }
+      #page10 .left10{
+        top: 0;
+        width: 100%;
+        height: 40%;
+      }
+      #page10 .right10{
+        bottom: 0;
+        width: 100%;
+        height: 60%;
+      }
+      #page10 .right10 .page10box1,
+      #page10 .right10 .page10box2,
+      #page10 .right10 .page10box3{
+        padding: 5px;
+        margin-top: 5px;
+      }
+}
